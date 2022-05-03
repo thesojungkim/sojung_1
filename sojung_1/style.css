@@ -1,7 +1,7 @@
 .all {
     padding-left: 3cm;
     padding-right: 3cm;
-    font-family: 'AppleSDGothicNeoM.ttf';
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 #container {
@@ -92,7 +92,7 @@ button {
 .list {
     word-spacing: 60px;
     font-size: 13px;
-    font-family: 'AppleSDGothicNeoM';
+   
     grid-column: 1/4;
     grid-row: 1/3;
     text-align: center;
@@ -176,6 +176,7 @@ button {
     grid-column: 3 / 4;
     grid-row: 3/ 4;
     padding-top: 5mm;
+    font-weight: bold;
 
 }
 
@@ -185,6 +186,7 @@ button {
     grid-column: 1 / 2;
     grid-row: 3/ 5;
     align-self: center;
+    font-weight: bold;
 
 }
 
@@ -221,13 +223,14 @@ button {
     font-size: 15px;
     color: #848484;
     grid-column: 1 /2;
-    grid-row: 5/ 7;
+    grid-row: 3/ 4;
+    padding-top: 3.5cm;
 }
 
 .video {
     padding-top: 0.7cm;
     grid-column: 2/3;
-    grid-row: 3/7;
+    grid-row: 3/4;
     row-gap: 5cm;
 }
 
@@ -243,16 +246,17 @@ button {
 
 }
 
-.arae {
+.area {
     font-size: 15px;
     color: #585858;
     grid-column: 3/4;
     grid-row: 5/6;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-
+    
+   
 }
-.arae1{
+.area1{
     font-weight: bold;
     font-size: 22px;
     color: black;
@@ -260,6 +264,9 @@ button {
     grid-row: 5/ 6;
     align-self: end;
     padding-top: 2mm;
+    font-weight: bold;
+    padding-top: 3mm;
+    
 }
 
 .area2 {
@@ -269,7 +276,8 @@ button {
     grid-row: 5/7;
     grid-column: 3/4;
     align-self: center;
-    padding-top: 1.2cm;
+    padding-top: 1.5cm;
+    
 
 
 }
@@ -281,6 +289,7 @@ button {
     grid-row: 7/9;
     grid-column: 1/4;
     align-items: center;
+    padding-bottom: 5mm;
 
 }
 .hobby {
@@ -300,6 +309,7 @@ button {
     grid-column: 1/2;
     grid-row: 2/3;
     align-self: start;
+    font-weight: bold;
    
 }
 
@@ -345,6 +355,7 @@ button {
     color: black;
     grid-row: 2/3;
     grid-column: 2/3;
+    font-weight: bold;
 }
 
 .doggie2 {
@@ -400,6 +411,7 @@ button {
     grid-row: 8/9;
     grid-column: 1/2;
     padding-bottom: 6mm;
+    font-weight: bold;
 }
 .illust2 {
     font-size: 15px;
@@ -407,6 +419,7 @@ button {
     grid-row: 8/10;
     grid-column: 1/2;
     align-self: center;
+    padding-top: 5mm;
 }
 .illust3{
     font-size: 15px;
@@ -453,6 +466,7 @@ button {
     font-weight: bold;
     grid-row: 12/13;
     grid-column: 1/2;
+    font-weight: bold;
 
 }
 .picture2{
@@ -504,6 +518,7 @@ button {
     grid-row: 19/20;
     grid-column: 1/2;
     font-weight: bold;
+    
 }
 
 .service3{
